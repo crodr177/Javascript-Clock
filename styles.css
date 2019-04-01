@@ -7,18 +7,26 @@ html {
 }
 
 body {
-  background: black;
+  background-image: url("assets/deadpool2.gif");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
 }
 
-#clock {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+#color-change {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  top: 100px;
+  right: 80px;
 }
 
-#time {
+#color-change p {
+  font-size: 60px;
   color:white;
-  width: 600px;
-  font-size: 100px;
   font-family: Arial, Helvetica, sans-serif;
+  padding: 85px;
+  text-transform: uppercase;
 }
